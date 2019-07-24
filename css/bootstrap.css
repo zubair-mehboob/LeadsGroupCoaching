@@ -5083,7 +5083,22 @@ a.badge-dark:focus, a.badge-dark.focus {
   outline: 0;
   box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5);
 }
-
+.salient-feature{
+  
+  border-radius: 50%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: space-between
+  
+  
+}
+.salient-feature-list li{
+   
+    list-style-image: url(../img/bullet.gif);
+    
+}
 .jumbotron {
   padding: 2rem 1rem;
   
